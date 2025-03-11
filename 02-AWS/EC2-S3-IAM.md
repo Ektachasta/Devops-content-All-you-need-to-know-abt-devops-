@@ -1,5 +1,3 @@
-# ☁️ AWS EC2 - Elastic Compute Cloud  
-
 Welcome to the **AWS EC2 Guide**! 🚀
 
 # 📖 AWS EC2 (Elastic Compute Cloud)
