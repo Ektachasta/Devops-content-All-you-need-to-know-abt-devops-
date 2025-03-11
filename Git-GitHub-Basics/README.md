@@ -1,6 +1,4 @@
-# 📝 Git Basics  
-
-# 📜 Git & GitHub for Absolute Beginners  
+# 📜 Git & GitHub actions for Absolute Beginners  
 
 ## 🚀 What is Git?  
 Git is a **tool** that helps track changes in your code. It allows multiple people to work on the same project **without messing up each other's code**.  
