@@ -1,47 +1,26 @@
-# Devops-content-All-you-need-to-know-abt-devops-
-# 🚀 DevOps Content - All You Need to Know About DevOps  
+# 📝 Git Basics  
 
-Welcome to the **ultimate DevOps repository!** This repository is designed to help beginners and experienced engineers understand **DevOps concepts, tools, and best practices** in a structured way.  
+Git is a distributed version control system that tracks changes in source code and enables collaboration among multiple developers.
 
----
+## 🔹 Why Use Git?
+- Tracks code changes efficiently.
+- Supports collaboration with multiple developers.
+- Allows rollback to previous versions.
+- Works both online (GitHub, GitLab) and offline.
 
-## 📌 What is DevOps?  
-DevOps is a **combination of Development (Dev) and Operations (Ops)**. It emphasizes **automation, collaboration, continuous integration (CI), continuous deployment (CD), and monitoring** to improve software delivery.  
+## 🔹 Key Git Commands
+| Command | Description |
+|---------|-------------|
+| `git init` | Initialize a new repository |
+| `git clone <repo-url>` | Clone an existing repository |
+| `git status` | Check the status of files |
+| `git add <file>` | Stage a file |
+| `git commit -m "message"` | Commit staged files |
+| `git push origin <branch>` | Push changes to GitHub |
+| `git pull origin <branch>` | Pull latest changes |
+| `git log` | Show commit history |
 
-✅ **Key Benefits of DevOps:**  
-- Faster **software delivery** 🚀  
-- **Continuous Integration & Deployment (CI/CD)** 🔄  
-- Improved **collaboration** between teams 🤝  
-- High **scalability & reliability** 📈  
-- Efficient **monitoring & feedback** 🛠️  
-
----
-
-## 🛠️ DevOps Roadmap  
-This repository is structured to provide a step-by-step **learning path** for mastering DevOps.  
-
-### **1️⃣ Version Control & GitHub**  
-- Basics of **Git** and **GitHub**  
-- Best practices for managing repositories  
-- Branching strategies (`main`, `dev`, `feature`)  
-
-### **2️⃣ Continuous Integration / Continuous Deployment (CI/CD)**  
-- **Jenkins**, **GitHub Actions**, **GitLab CI/CD**  
-- Writing pipelines for automation  
-- Docker & Kubernetes integration  
-
-### **3️⃣ Containerization & Orchestration**  
-- **Docker** (Containers, Dockerfile, Images, Volumes)  
-- **Kubernetes** (Pods, Deployments, Services, Helm)  
-
-### **4️⃣ Infrastructure as Code (IaC)**  
-- **Terraform** and **Ansible** for provisioning  
-- Writing declarative infrastructure  
-- AWS CloudFormation basics  
-
-### **5️⃣ Cloud & DevOps Tools**  
-- **AWS, Azure, Google Cloud** basics  
-- **Logging & Monitoring** (Prometheus, Grafana, ELK Stack)  
-- **Security in DevOps** (Secrets Management, Role-Based Access)  
-
----- 
+## 🔹 Git Workflow
+1️⃣ **Clone repository:**  
+   ```sh
+   git clone https://github.com/your-repo.git
