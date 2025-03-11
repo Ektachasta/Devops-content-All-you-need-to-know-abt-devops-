@@ -266,19 +266,6 @@ AWS IAM consists of **Users, Groups, Policies, and Roles**.
 ### 3️⃣ **Policies** 📜
 - A **set of rules** that define what actions are allowed/denied.
 - Written in **JSON format**.
-- Example policy that allows reading from an S3 bucket:
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::example-bucket/*"
-    }
-  ]
-}
 
 ---
 ## 🔄 Roles 
