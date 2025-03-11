@@ -280,6 +280,7 @@ AWS IAM consists of **Users, Groups, Policies, and Roles**.
   ]
 }
 
+---
 ## 🔄 Roles 
 - A **temporary identity** for AWS services or external users.
 - Used by **applications or AWS services** instead of users.
