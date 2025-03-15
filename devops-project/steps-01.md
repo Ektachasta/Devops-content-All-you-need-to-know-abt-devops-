@@ -312,17 +312,12 @@ Add a VirtualHost for Port 80 inside the container(Enable HTTP Redirect to HTTPS
 
 ```
 docker exec -it ektaa-container sh -c 'echo "
-```
-
 <VirtualHost *:80>
-
 ServerName ektaa.sbs
-
 DocumentRoot \"/usr/local/apache2/htdocs\"
-
 Redirect permanent / https://ektaa.sbs/
-
 </VirtualHost>" >> /usr/local/apache2/conf/extra/httpd-vhosts.conf'
+```
 
 ```
 docker exec -it ektaa-container apachectl restart
